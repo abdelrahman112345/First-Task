@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.form {
+    background-color: #00bcd47a;
+    height: 100vh;
+}
+.form .container {
+    width: 90%;
+    margin: 0 auto;
+}
+.form .container .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding: 5% 0;
+}
+.form .container .info {
+    width: 40%;
+    float: left;
+}
+.form .container .info input {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.form .container .info input:focus{
+    outline: none;
+}
+.form .container .info input[type="phone"], 
+.form .container .info input[placeholder="COMPANY"] {
+    display: inline-block;
+    width: 46%;
+}
+.form .container .info input[placeholder="COMPANY"] {
+    margin-right: 6%;
+}
+.form .container .info textarea {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form .container .info input[type="submit"] {
+    width: 45%;
+    background-color: rgb(255, 193, 7, 90%);
+    font-weight: bold;
+    float: right;
+}
+.form .container  .clear {
+    clear: both;
+}
+.form .container .contact {
+    float: right;
+    width: 40%;
+    color: #fff;
+}
+.form .container .contact h2 {
+    text-transform: uppercase;
+    padding-top: 15%;
+}
+.form .container .contact p {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 0 20px;
+}
+.form .container .contact p span {
+    color:rgb(255, 193, 7);
+}
+.form .container .contact ul {
+    margin-left: 10px;
+}
